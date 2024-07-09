@@ -1,7 +1,7 @@
 // @ts-nocheck
 // import { error } from '@sveltejs/kit';
 import { createPool, sql } from '@vercel/postgres'
-// import { POSTGRES_URL } from '$env/static/private'
+import { POSTGRES_URL } from '$env/static/private'
 
 export async function load() {
   const db = createPool({ connectionString: POSTGRES_URL })
@@ -19,7 +19,7 @@ export async function load() {
       await seed()
       const { rows: names } = await db.query('SELECT * FROM names')
       return {
-        names: names
+        users: names
       }
     } 
 }
