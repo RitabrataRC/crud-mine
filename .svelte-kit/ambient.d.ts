@@ -26,6 +26,14 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const POSTGRES_DATABASE: string;
+	export const POSTGRES_HOST: string;
+	export const POSTGRES_PASSWORD: string;
+	export const POSTGRES_PRISMA_URL: string;
+	export const POSTGRES_URL: string;
+	export const POSTGRES_URL_NON_POOLING: string;
+	export const POSTGRES_URL_NO_SSL: string;
+	export const POSTGRES_USER: string;
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const ChocolateyInstall: string;
@@ -125,6 +133,14 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		POSTGRES_DATABASE: string;
+		POSTGRES_HOST: string;
+		POSTGRES_PASSWORD: string;
+		POSTGRES_PRISMA_URL: string;
+		POSTGRES_URL: string;
+		POSTGRES_URL_NON_POOLING: string;
+		POSTGRES_URL_NO_SSL: string;
+		POSTGRES_USER: string;
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		ChocolateyInstall: string;

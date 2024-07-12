@@ -1,15 +1,1 @@
-{
-  "projectId": "prj_DIPimqOjXkrXW17vhAdXEagq8T3p",
-  "orgId": "team_GNrEtanGxLGwwOJYQphCZXnb",
-  "settings": {
-    "createdAt": 1720505805927,
-    "framework": "sveltekit-1",
-    "devCommand": null,
-    "installCommand": null,
-    "buildCommand": null,
-    "outputDirectory": null,
-    "rootDirectory": null,
-    "directoryListing": false,
-    "nodeVersion": "20.x"
-  }
-}
+{"projectId":"prj_fSLrQpInuEKOrJZ138K6LpyioG48","orgId":"team_GNrEtanGxLGwwOJYQphCZXnb"}
